@@ -1,0 +1,42 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.contenedor{
+    background-color: grey;
+    height: 100%;
+}
+.top{
+    background-color: green;
+    height: 20%;
+
+}
+.botthom {
+    height: 80%;
+}
+.izquierda {
+    background-color: blue;
+    display: inline-block;
+    width:20%;
+    height: 100%;
+}
+.derecha {
+    background-color: red;
+    display: inline-block;
+    width:75%;
+    height: 100%;
+}
+.bloque{
+    background-color: yellow;
+    display: inline-block;
+    width:30%;
+    height: 30%;
+
+}
+
+.bloque4{
+    background-color: cyan;
+    display: inline;
+    width:30%;
+    height: 30%;
+}

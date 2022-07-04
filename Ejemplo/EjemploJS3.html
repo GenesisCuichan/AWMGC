@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EjemploJS3</title>
+</head>
+<body>
+    <div>Password:<input type="password" id="password"></div>
+    <div>Confirm Password<input type="password" id="password1"></div>
+    <div>
+        <input type="button" value="Enviar!" onclick="myFunction()"/>
+    </div>
+    
+    <script type="text/javascript">
+        function myFunction(){
+            var p1 = document.getElementById("password").value;
+            var p2 = document.getElementById("password1").value;
+            if(p1.length >=8){
+                if(p1 == p2){
+                    alert("Contraseña Correcta");
+                }else{
+                    alert("Contraseñas no coinciden");
+                }
+
+                
+            }else{alert("Contraseña con longitud incorrecta");}
+            
+        }
+
+    </script>
+    <p style="font-size: 8pt;">EJEMPLO3 07/JUNIO/2022</p>
+</body>
+</html>
