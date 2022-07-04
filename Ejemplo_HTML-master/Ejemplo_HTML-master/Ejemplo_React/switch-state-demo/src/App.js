@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import LightSwitch from './Components/LigthSwitch';
 import Menu from './Components/Menu';
