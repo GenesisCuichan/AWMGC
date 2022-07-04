@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import LightSwitch from './Components/LigthSwitch';
+import Menu from './Components/Menu';
 
 function App() {
   return (
     <div className="App">
+      <Menu/>
       <LightSwitch/>
       {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
