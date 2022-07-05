@@ -1,3 +1,6 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
 body{
     padding: 0% 30% 5% 30%;
 }
@@ -8,8 +11,12 @@ body{
 }
 img {
     border-radius: 100%;
+    margin-top: 2%;
     width: 200px;
 }
 button{
     margin-bottom: 2%;
+    margin-left: 1%;
+    background-color: white;
+    padding: 1% 1% 1% 1%;
 }
