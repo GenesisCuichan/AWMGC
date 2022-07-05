@@ -4,13 +4,20 @@ import React from 'react';
 import PersonCard from './Component/PersonCard'
 
 class App extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {
+      img: "https://i.pinimg.com/736x/75/c4/57/75c457151cc8211f4069c2bb3ebd29a5.jpg", name:'Laura', age: 1, city: 'Cuenca', country: 'Ecuador', address: 'García Moreno y Venezuela'};
+    
+  }
   render(){
+    
     const data = [
-      {img: "https://cdn.pixabay.com/photo/2021/10/22/06/07/girl-6731188_960_720.png", name:'Laura', age: 1, city: 'Cuenca', country: 'Ecuador', address: 'García Moreno y Venezuela'},
-      {img: "https://img.freepik.com/vector-gratis/dibujos-animados-nina-feliz_43633-1438.jpg?w=2000",age: 1, name:'Genesis', city: 'Loja', country: 'Ecuador', address: 'Pichincha y Venezuela'},
-      {img: "https://i.pinimg.com/originals/6d/fd/f3/6dfdf34f15b8ba3882f8870b1c1d0061.png", name:'Sarah',age: 1, city: 'Guayaquil', country: 'Ecuador', address: 'Alonso de Angulo 23232'},
-      {img: "https://i.pinimg.com/736x/d6/95/31/d695313d53d7ae5a87ab0e6ad575318e.jpg", name:'Andrea',age: 1, city: 'Guayaquil', country: 'Ecuador', address: 'Alonso de Angulo 23232'},
-      {img: "https://i.pinimg.com/564x/b9/be/c8/b9bec836cde52404249e77471d80a404.jpg", name:'Josselin', age: 1,city: 'Guayaquil', country: 'Ecuador', address: 'Alonso de Angulo 23232'}
+      {img: "https://i.pinimg.com/736x/75/c4/57/75c457151cc8211f4069c2bb3ebd29a5.jpg", name:'Laura', age: 1, city: 'Cuenca', country: 'Ecuador', address: 'García Moreno y Venezuela'},
+      {img: "https://i.pinimg.com/originals/da/93/ed/da93ed4e40ade41998432aae52bd4785.jpg",age: 1, name:'Genesis', city: 'Loja', country: 'Ecuador', address: 'Pichincha y Venezuela'},
+      {img: "https://i.pinimg.com/originals/ae/23/32/ae2332ae944a95cabfbd65f0dc79d2c4.jpg", name:'Sarah',age: 1, city: 'Guayaquil', country: 'Ecuador', address: 'Alonso de Angulo 23232'},
+      {img: "https://i.pinimg.com/474x/ae/55/62/ae556255d2d9f8db3f84d7d9c21c48af.jpg", name:'Andrea',age: 1, city: 'Guayaquil', country: 'Ecuador', address: 'Alonso de Angulo 23232'},
+      {img: "https://i.pinimg.com/originals/2a/29/5e/2a295e384d01ad83f7595267e1618715.jpg", name:'Josselin', age: 1,city: 'Guayaquil', country: 'Ecuador', address: 'Alonso de Angulo 23232'}
     ];
     return(
       <div className='App'>
