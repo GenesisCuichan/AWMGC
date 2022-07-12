@@ -4,12 +4,7 @@ import React from 'react';
 import PersonCard from './Component/PersonCard'
 
 class App extends React.Component{
-  constructor(props) {
-    super(props);
-    this.state = {
-      img: "https://i.pinimg.com/736x/75/c4/57/75c457151cc8211f4069c2bb3ebd29a5.jpg", name:'Laura', age: 1, city: 'Cuenca', country: 'Ecuador', address: 'García Moreno y Venezuela'};
-    
-  }
+ 
   render(){
     
     const data = [
