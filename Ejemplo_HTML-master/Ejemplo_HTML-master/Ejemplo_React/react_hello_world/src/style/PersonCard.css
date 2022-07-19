@@ -1,0 +1,22 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    padding: 0% 30% 5% 30%;
+}
+.container{
+    background-color: rgb(83, 97, 145);
+    border: 2px solid;
+    margin-bottom: 5% ;
+}
+img {
+    border-radius: 100%;
+    margin-top: 2%;
+    width: 200px;
+}
+button{
+    margin-bottom: 2%;
+    margin-left: 1%;
+    background-color: white;
+    padding: 1% 1% 1% 1%;
+}
