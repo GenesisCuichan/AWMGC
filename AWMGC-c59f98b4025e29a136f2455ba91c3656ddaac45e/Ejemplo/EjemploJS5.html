@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EjemploJS4</title>
+    <link rel="stylesheet" type="text/css" href="EstiloJS1.css"/>    
+</head>
+<body>
+    <h1>LIKE: <span id="likes">0</span> </h1>
+   
+    <div>
+        <input type="button" id="btnLike" value="Like" onclick="changeState(this)"/>
+    </div>
+    <div>
+        <input type="button" id="btnLike1" value="disLike" onclick="changeState1(this)"/>
+    </div>
+    <h2> <span id="texto"> </span> </h2>
+    <h3> <span id="texto1"> </span> </h3>
+    <ul >
+        <li ><span id="nav-links"> </span> </li>
+        <li ><span id="nav-links1"> </span> </li>
+       
+    </ul>
+
+
+
+
+    <script type="text/javascript">
+        
+        function changeState(element){
+            if( document.getElementById("likes").innerText==10){
+                document.getElementById("texto").innerHTML=document.getElementById("texto").innerText+"Eres un seguidor premium";
+                document.getElementById("texto1").innerHTML=document.getElementById("texto1").innerText+"Elige Suscripcion";
+                document.getElementById("nav-links").innerHTML=document.getElementById("nav-links").innerText+"Basico";
+                document.getElementById("nav-links1").innerHTML=document.getElementById("nav-links1").innerText+"Avanzado";
+            }else{          
+                document.getElementById("likes").innerHTML=parseInt(document.getElementById("likes").innerHTML)+1;
+            }  
+        }
+        function changeState1(element){
+            
+            document.getElementById("likes").innerHTML=parseInt(document.getElementById("likes").innerHTML)-1;
+            
+        }
+     
+
+    </script>
+    <p style="font-size: 8pt;">EJEMPL5 07/JUNIO/2022</p>
+</body>
+</html>

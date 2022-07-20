@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EjemploJS4</title>
+    <link rel="stylesheet" type="text/css" href="EstiloJS1.css"/>    
+</head>
+<body>
+    <h1>LIKE</h1>
+    <div class="bloque" id="bloque" onclick="changeState(this)">
+        
+    </div>
+    <div>
+        <input type="button" id="btnTurn" value="Turn Off" onclick="changeState(this)"/>
+    </div>
+
+    <script type="text/javascript">
+        function changeState(element){
+            var element = document.getElementById("btnTurn");
+            if(element.value=="Turn Off"){
+                element.value = "Turn On"
+                document.getElementById("bloque").style.backgroundColor = "yellow";
+            }else{
+                element.value = "Turn Off"
+                document.getElementById("bloque").style.backgroundColor= "black";
+
+            }
+        }
+
+    </script>
+    <p style="font-size: 8pt;">EJEMPLO4 07/JUNIO/2022</p>
+</body>
+</html>

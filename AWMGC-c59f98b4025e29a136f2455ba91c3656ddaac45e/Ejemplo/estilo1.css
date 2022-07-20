@@ -1,0 +1,30 @@
+
+body {
+    color: red;
+    /*atributos del modelo de caja y 
+    y no se heredan del padre*/
+    padding: 100px; /*desplaza*/
+    border: solid 1px rgb(27, 0, 177);/*agrga borde al body*/
+}
+header {
+    background-color: rgb(188, 252, 248);
+}
+nav {
+    background-color: rgba(145, 227, 252, 0.849);
+    
+}
+#caja1 {
+    display: inline-block;
+    width: 50%;
+}
+article {
+    background-color: rgb(40, 185, 230);
+}
+footer {
+    background-color: rgb(53, 154, 221);
+}
+.lista ul {/*todos los elemento ul descendientes
+    de lista*/
+    color: blue;
+    list-style-type: "- " ;
+}

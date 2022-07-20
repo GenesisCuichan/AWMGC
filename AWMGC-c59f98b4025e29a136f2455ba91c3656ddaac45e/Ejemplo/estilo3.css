@@ -1,0 +1,31 @@
+.boton1 {
+    border-radius: 900px;
+    border: 3px solid darkcyan;
+    color: darkcyan;
+    background-color: rgb(182, 180, 180);
+    font-size: 12pt;
+
+}
+.boton2 {
+    border-radius: 1000px;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: darkcyan; 
+    border: 3px solid darkcyan;
+    color:white;
+    font-size: 20pt;
+}
+.boton3 {
+    border-radius: 0px;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 35px;
+    font-size: 14pt;
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px  black;
+    
+
+}
